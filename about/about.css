@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   background-position: center;
-  background-image: url("/images/profile-pic-accent.png");
+  background-image: url("./images/profile-pic-accent.png");
   background-size: 120%;
   background-repeat: no-repeat;
   box-sizing: border-box;

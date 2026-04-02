@@ -25,7 +25,7 @@ let skillSet = [
 skillSet.forEach((skill) => {
   let pill = document.createElement("img");
   pill.className = "pill";
-  pill.src = "/images/skills/" + skill.img
+  pill.src = "./images/skills/" + skill.img
   pillBox.append(pill)
   skills_section.append(pillBox);
 });

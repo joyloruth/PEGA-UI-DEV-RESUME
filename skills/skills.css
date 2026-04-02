@@ -5,7 +5,6 @@
   text-align: center;
   display: flex;
   background-color: var(--primary-bg-color);
-  /* background-image: url(/images/white-bg.jpg); */
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -21,7 +20,6 @@
   width: 75%;
   align-items: center;
   justify-content: center;
-  /* background-color: aqua; */
 }
 
 .pill {
