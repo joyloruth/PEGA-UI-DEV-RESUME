@@ -1,0 +1,78 @@
+#about {
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--primary-bg-color);
+  box-sizing: border-box !important;
+  overflow: hidden;
+  background-color: var(--primary-bg-color);
+}
+
+.about_container {
+  /* width: 100%;
+  height: fit-content; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box !important;
+}
+
+.about_img {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-image: url("/images/profile-pic-accent.png");
+  background-size: 120%;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.about_img img {
+  width: 60%;
+  height: 100%;
+}
+
+.about_content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.about_info {
+  color: var(--primary-font-color);
+  text-align: justify;
+}
+
+.about_info p {
+  margin-top: 10px !important;
+  font-family: var(--primary-content-font);
+  font-size: var(--primary-content-font-size);
+}
+
+#about .header {
+  text-align: justify !important;
+}
+
+.about_button {
+  background: url("/images/button.png");
+  background-size: contain;
+  width: 150px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+.about_button:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out .25s;
+}

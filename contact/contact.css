@@ -1,0 +1,62 @@
+#contact {
+  /* background-attachment: fixed; */
+  background-color: var(--primary-bg-color);
+  /* background-image: url("/images/doodle-bg.avif"); */
+  display: flex;
+  flex-direction: column;
+  height: 300px!important;
+}
+
+.contact_container{
+  width: 100%;
+  height: 100%;
+}
+
+.contact_content{
+  /* background-color: green; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+i{
+  color:white!important;
+  font-size: 50px;
+  border-radius: 100%;
+  margin: 10px!important;
+}
+
+i:hover{
+  color:rgb(206, 244, 118)!important;
+transform: scale(1.4)!important;
+transition: all .25s ease-in-out;
+font-size: 55px;
+}
+
+
+
+.contact_socials{
+  height: 100px;
+  padding:10px;
+  /* height: 300px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  
+
+
+}
+
+p{
+  color: white;
+}
+ 
+.show_social{
+  transform: scale(1);
+  transition: 1s ease-in-out ;
+}

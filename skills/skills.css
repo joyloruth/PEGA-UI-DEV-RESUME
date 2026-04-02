@@ -1,0 +1,49 @@
+#skills {
+  height: fit-content;
+  width: 100%;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  background-color: var(--primary-bg-color);
+  /* background-image: url(/images/white-bg.jpg); */
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: sticky;
+  background-color: rgb(27, 22, 22);
+}
+
+.pillBox {
+  margin-top: 10px !important;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 1;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+
+.pill {
+  background-image: linear-gradient(rgba(138, 136, 136, 0.695), rgb(39, 39, 41));
+  /* background-color: rgba(255, 255, 255, 0.144)!important; */
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin: 3px !important;
+  border: 1px solid black;
+  word-wrap: normal;
+  color:black;
+  font-weight: bold;
+  font-family: luckiest guy;
+  width: 85px;
+  height: 85px;
+  opacity: .85;
+  border-radius: 15 ;
+/* font-family: var(--primary-content-font); */
+}
+ .pill:hover{
+  transform: scale(1.1);
+  transition: ease-in-out .25s all;
+  background-color: white;
+  
+ }
