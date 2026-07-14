@@ -1,16 +1,21 @@
 #hero-section {
   /* background-color: rgba(18, 38, 255, 0.577); */
-  height: 100vh;
-  width: 100%;
-  display: flex;
+  /* height: 100vh;
+  width: 100%; */
+  position: relative;
+  /* display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  background-attachment: fixed;
-  background-image: url(../images/swe-doodle-bg.png);
-  background-position: center;
-  background-size: cover;
+  overflow: hidden!important;
+  background-attachment: fixed; */
+  /* background-image: url(../images/swe-doodle-bg.png); */
+  /* background-position: center;
+  background-size: cover; */
+  margin: 0px !important;
+  padding: 100px !important;
+  background-color: rgb(72, 40, 147);
 }
+
 
 .hero-bg {
   font-size: 75px;
@@ -23,49 +28,153 @@
   height: 100%;
 }
 
-.joy {
-  background-color: white !important;
-  transition: all 1s linear;
-  font-family: "luckiest guy";
-  position: relative;
-  z-index: 1;
-  /* margin-right: 50px; */
-  background-color: inherit;
-  width: 90%;
-  text-align: center;
-  padding: 5px 10px;
-  rotate: 5deg;
-  border: 3px solid black;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px black;
+#monitor {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  transform: rotate(90deg);
+
 }
+
+#desk {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#window {
+  width: 105%;
+  height: 100%;
+  position: absolute;
+  top: -10px;
+}
+
+#curtains {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#wall {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#dev {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+}
+
+#shadow {
+  width: 110%;
+  height: 100%;
+  position: absolute;
+  bottom: -10px!important;
+}
+
+#moon {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 0px;
+  left: 15%;
+  box-shadow: 0px 0px 110px rgb(227, 204, 54);
+  background-color: rgb(241, 238, 161);
+  border-radius: 100%;
+  animation: shine 2s ease-in-out infinite alternate;
+}
+
+#screen1 {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  border: 5px solid rgb(230, 217, 255);
+  color: rgb(165, 209, 8);
+  font-family: monospace;
+  font-size: 10px;
+  padding: 7px;
+  transition: all 1s linear;
+  border-radius: 5px;
+}
+
+#screen1 p {
+  font-size: 10px;
+  display: flex;
+}
+
+#screen1 span {
+  font-size: 10px;
+  display: flex;
+  font-family: monospace;
+
+}
+
+.testMessage {
+  color: white !important;
+}
+
+#stars {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: shine 2s ease-in-out infinite alternate;
+}
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.1;
+  top: -5px !important;
+}
+
+#screens {
+  width: 90%;
+  height: 90%;
+  position: absolute;
+}
+
+#skyline {
+  width: 90%;
+  height: 100%;
+  position: absolute;
+}
+
+
 
 .hidden-message {
-  position: absolute;
-  width: 80%;
-  padding: 5px 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  text-align: center;
-  border-radius: 10px;
+  margin-top: 50px !important;
+  /* position: absolute;
   font-family: monospace;
   font-size: 50px;
+  animation: wiggle 2s ease-in-out infinite alternate; */
 }
 
-.loruth {
-  background-color: white !important;
-  transition: all 1s linear;
-  font-family: "luckiest guy";
-  position: relative;
-  z-index: 1;
-  background-color: inherit;
-  width: 95%;
-  text-align: center;
-  padding: 5px 10px;
-  rotate: -5deg;
-  border: 3px solid black;
-  border-radius: 5px;
-  box-shadow: 0px 0px 10px black;
+
+
+@keyframes hover {
+  0% {
+    width: 60px;
+    /* transform: rotate(90deg); */
+  }
+
+  100% {
+    width: 70px;
+    /* transform: rotate(90deg); */
+  }
+}
+
+@keyframes shine {
+  0% {
+    box-shadow: 0px 0px 0px white;
+    /* transform: rotate(90deg); */
+  }
+
+  100% {
+    box-shadow: 0px 0px 100px white;
+    /* transform: rotate(90deg); */
+  }
 }

@@ -10,9 +10,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(/images/swe-doodle-bg.png);
-  background-color: var(--primary-bg-color) !important;
+  /* background-image: url(/images/swe-doodle-bg.png); */
+  /* background-color: var(--primary-bg-color) !important; */
   background-repeat: no-repeat;
+  padding-bottom: 50px;
+  padding-top:50px ;
+ background-color: rgb(33, 5, 83);
 
 }
 
@@ -29,7 +32,7 @@
   align-items: center;
 }
 #pega-experience .header{
-  color:black;
+  color:rgb(196, 185, 223);
 }
 .show-pega-experience {
   transition: linear 1s all;
@@ -89,7 +92,7 @@ transition: linear 1s all;
   /* margin-top: 10px !important ; */
   border-radius: 3px;
   opacity: 1;
-  background-image: linear-gradient(rgb(160, 156, 156), rgb(25, 25, 25));
+  /* background-image: linear-gradient(rgb(160, 156, 156), rgb(25, 25, 25)); */
   padding: 5px 10px;
   border-radius: 5px;
   margin-top: 30px !important;
@@ -98,6 +101,7 @@ transition: linear 1s all;
   font-family: var(--primary-content-font);
   border: 1px solid rgb(12, 12, 12);
  
+  background-color: rgba(0, 0, 0, 0.171);
   
   /* transform: translateX(50%); */
 }
@@ -109,14 +113,13 @@ transition: linear 1s all;
   /* margin-top: 10px !important ; */
   border-radius: 0px;
   opacity: 1;
-  background-image: linear-gradient(rgb(38, 38, 38), rgb(25, 25, 25));
-  padding: 5px 10px;
-  border-radius: 5px;
+  /* background-image: linear-gradient(rgb(29, 28, 33), rgb(52, 51, 51)); */
+  border-radius: 25px;
   margin-top: 30px !important;
-  padding: 20px 15px;
+  padding: 20px 25px;
   width: 85%;
   font-family: var(--primary-content-font);
-  border: 3px white solid;
+  /* border: 2px solid rgb(0, 0, 0); */
 }
 
 .show-position {

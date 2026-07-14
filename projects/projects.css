@@ -1,0 +1,56 @@
+#projects{
+    background-color: rgb(61, 7, 72);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+   padding-top: 50px;
+}
+.project{
+   
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    margin: 10px!important;
+    border: 2px black solid;
+    padding: 10px;
+    width: 75%;
+    border-radius: 10px;
+    border: white;
+     background-color: rgb(33, 5, 83);
+    
+     font-family: var(--primary-content-font);
+}
+.project h2{
+    color: rgba(255, 255, 255, 0.71)!important;
+    text-transform: uppercase;
+    font-size: medium;
+}
+#css a{
+    margin-top: 10px;
+    /* color: white; */
+}
+.project a{
+margin-top: 10px!important;
+color: rgb(0, 183, 255);
+}
+#art{
+    display: flex;
+    flex-direction: column;
+}
+
+#dma-art img{
+    width: 25%;
+    height: 25%;
+    border-radius: 15px;
+}
+
+.project p{
+    font-family: Montserrat;
+}
+
+#dma-art {
+display: flex;
+flex-direction: row;
+   font-family:Montserrat;
+}

@@ -1,43 +1,58 @@
 .navbar {
-  position: sticky;
+  position: sticky !important;
   z-index: 99;
-  background-color: var(--primary-bg-color) !important;
+  /* background-color: var(--primary-bg-color) !important; */
   color: white !important;
   box-sizing: border-box;
-  width: 100vw;
+   background-color: rgb(33, 5, 83)!important;
 }
 
 nav img {
   width: 50px;
-   box-shadow: none;
-   height: 50px;
-   display: flex;
- justify-content: center;
- align-items: center;
- background-color: yellowgreen;
- border-radius: 50%;
+  box-shadow: none;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
 }
 
 .navbar-brand {
-  font-family: luckiest guy;
+  font-family: monospace;
+  font-size: 14px;
   height: 75px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
- 
+
 }
 
 .navbar-nav {
   margin: auto;
 }
 
-.nav-link{
-  color:white;
-  font-family: Montserrat;
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-family: montserrat;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
 }
-.nav-link:hover{
-  color:rgb(207, 239, 131);
-  font-family: luckiest guy;
-  transition: all ease-in-out 1s;
+
+.nav-link:hover {
+  color: rgb(207, 239, 131);
+  transition: all ease-in-out .1s;
+}
+
+.navbar-toggler-icon {
+
+  padding: 15px !important;
+  border-radius: 10%;
+}
+
+.navbar-toggler {
+  border: 3px solid rgba(33, 216, 51, 0);
+  background-color: rgba(198, 216, 33, 0);
+  border-radius: 5%;
 }

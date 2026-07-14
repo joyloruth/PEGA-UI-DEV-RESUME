@@ -1,38 +1,60 @@
 #about {
   height: fit-content;
-  width: 100%;
+  padding-top: 50px !important;
+  /* width: 100%; */
   flex-direction: column;
   text-align: center;
   background-color: var(--primary-bg-color);
   box-sizing: border-box !important;
   overflow: hidden;
-  background-color: var(--primary-bg-color);
+  z-index: 999;
+  background-color: rgb(33, 5, 83);
+  background-attachment: fixed;
 }
 
 .about_container {
-  /* width: 100%;
-  height: fit-content; */
+   width: 100%;
+  height: fit-content; 
   display: flex;
   justify-content: center;
   align-items: center;
   box-sizing: border-box !important;
+  /* background-color: var(--primary-bg-color); */
+   /* background-color: rgb(127, 107, 161); */
+   z-index: 999;
 }
 
 .about_img {
-  width: 50%;
+  width: 30%;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items:  */
+  justify-content:right;
   background-position: center;
-  background-image: url("../images/profile-pic-accent.png");
-  background-size: 120%;
-  background-repeat: no-repeat;
+  align-items: center;
+  flex-direction: column;
+  /* background-image: url("../images/profile-pic-accent.png");
+  background-size: 150%;
+  background-repeat: no-repeat;*/
+  /* background-color: rgb(196, 181, 221); */
   box-sizing: border-box;
 }
 
+#profilepic {
+  width: 250px;
+  border-radius: 4%;
+  /* border: 7px solid var(--primary-font-color); */
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.409);
+}
+
+#profilepicaccent {
+  animation: wiggle 2s ease-in-out infinite alternate;
+  position: absolute;
+  scale: 1;
+}
+
 .about_img img {
-  width: 60%;
+  width: 70%;
   height: 100%;
 }
 
@@ -43,7 +65,7 @@
   /* align-items: center; */
   justify-content: center;
   flex-direction: column;
-  padding: 10px;
+  padding: 50px;
   box-sizing: border-box;
 }
 
@@ -72,7 +94,18 @@
   align-items: center;
   background-repeat: no-repeat;
 }
+
 .about_button:hover {
   transform: scale(1.1);
   transition: all ease-in-out .25s;
+}
+
+@keyframes wiggle {
+  from {
+    transform: rotate(-5deg);
+  }
+
+  to {
+    opacity: 1;
+  }
 }

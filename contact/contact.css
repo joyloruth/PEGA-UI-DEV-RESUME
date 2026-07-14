@@ -1,6 +1,7 @@
 #contact {
   /* background-attachment: fixed; */
-  background-color: var(--primary-bg-color);
+  /* background-color: rgb(60, 11, 133); */
+   background-color: rgb(33, 5, 83);
   /* background-image: url("/images/doodle-bg.avif"); */
   display: flex;
   flex-direction: column;

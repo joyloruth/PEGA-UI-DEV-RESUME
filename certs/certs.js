@@ -3,7 +3,7 @@ certifications_list = [
     issuer:"Pegasystems",
     level:"Advanced",
     date: "2025",
-    title: "Certified Pega Senior System Architect",
+    title: "Certified Pega Senior System Architect (CSSA)",
     img: "/images/pega-senior-system-arc.png",
     link:"http://www.google.com"
   },
@@ -11,16 +11,16 @@ certifications_list = [
     issuer:"Pegasystems",
     level:"Advanced",
     date: "2022",
-    title: "Certified Pega System Architect",
+    title: "Certified Pega System Architect (CSA)",
     // img: "/images/pega-system-arc.png",
-    link:"pega.com"
+    link:"pega.com" 
 
   },
   {
     issuer:"Pegasystems",
     level:"Advanced",
     date: "2022",
-    title: "Certified Pega Business Architect",
+    title: "Certified Pega Business Architect (CBA)",
     // img: "/images/pega-business-arc.png", 
     link:"pega.com"
   },
@@ -28,7 +28,7 @@ certifications_list = [
     issuer:"Tennessee State University",
     level:"Advanced",
     date: "Spring 2019",
-    title: "Bachelor of Science",
+    title: "Bachelor of Science (B.S)",
     img: "/images/pega-business-arc.png", 
     link:"pega.com"
   }
