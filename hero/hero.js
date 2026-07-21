@@ -54,9 +54,11 @@ let curtains = document.getElementById("curtains");
 let wall = document.getElementById("wall");
 let dev = document.getElementById("dev");
 let skyline = document.getElementById("skyline");
+let buildings = document.getElementById("buildings");
 let moon = document.getElementById("moon");
 let screen1 = document.getElementById("screen1");
 let shadow = document.getElementById("shadow");
+
 
 
 
@@ -69,7 +71,8 @@ let moveName = () => {
     desk.style.top = scrollValue * .3 + "px";
     dev.style.top = scrollValue * .2 + "px";
     moon.style.top = scrollValue * .7 + "px";
-    skyline.style.top = scrollValue * .5 + "px";
+    skyline.style.left = scrollValue * .5 + "px";
+     buildings.style.bottom = scrollValue * .2 + "px";
      shadow.style.bottom = scrollValue * .9 + "px";
     // screen1.style.top = scrollValue  + "px";
   })
