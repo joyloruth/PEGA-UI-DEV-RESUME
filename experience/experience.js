@@ -2,7 +2,7 @@ pega_experiences_list = [
   {
     company: "Accenture Federal Srvs",
     position: "Pega Developer",
-    date: "02/2025 - present",
+    date: "",
     desc1: "Developed and enhanced Pega PRPC applications (v7.x–8.8), building case types, UI sections, and decision rules to support scalable business workflows",
     desc2: "Utilized Dev Studio, SQL Server, JavaScript, and CSS to debug issues, optimize data handling, and enhance user interface performance and responsiveness",
     desc3: "Troubleshot and resolved complex production defects across UI and backend layers, fixing high-volume UI bugs and improving overall application stability",
