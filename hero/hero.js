@@ -69,10 +69,11 @@ let moveName = () => {
   window.addEventListener("scroll", () => {
     let scrollValue = window.scrollY * 1;
     desk.style.top = scrollValue * .3 + "px";
+    
     dev.style.top = scrollValue * .2 + "px";
     moon.style.top = scrollValue * .7 + "px";
     skyline.style.left = scrollValue * .5 + "px";
-     buildings.style.bottom = scrollValue * .2 + "px";
+     buildings.style.bottom = scrollValue * .3 + "px";
      shadow.style.bottom = scrollValue * .9 + "px";
     // screen1.style.top = scrollValue  + "px";
   })

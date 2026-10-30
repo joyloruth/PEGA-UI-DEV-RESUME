@@ -58,7 +58,7 @@ let create_badge = (item, index) => {
 
   let cert_link = document.createElement("img");
   cert_link.className = "cert-link";
-  cert_link.src = "/images/arrow.png";
+  cert_link.src = "./images/arrow.png";
   cert_link.target = "_blank"
 
   cert_link.addEventListener('click', ()=>{

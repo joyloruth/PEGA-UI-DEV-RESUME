@@ -58,7 +58,7 @@ let create_card = (item) => {
   desc3.className = "desc";
   desc3.innerHTML = "- "+ item.desc3;
  
-  card.append(position, company,date, desc1, desc2,desc3);
+  card.append(date,position,company, desc1, desc2,desc3);
 };
 
 pega_experiences_list.forEach((pega_experiences_list_item) => {
@@ -78,17 +78,13 @@ const pega_experience_observer = new IntersectionObserver((entries) => {
       if (entry.target.className == "card") {
        
         entry.target.classList.add("show-pega-experience");
-         
-        entry.target.childNodes[0].classList.add("show-position")
+        entry.target.childNodes[1].classList.add("show-position")
 
       }
-      //  else {
-      
-      //   entry.target.classList.add("odd-pega-experience");
-      // }
     } else {
+
       entry.target.classList.remove("show-pega-experience");
-      entry.target.childNodes[0].classList.remove("show-position")
+      entry.target.childNodes[1].classList.remove("show-position")
       // entry.target.classList.remove("odd-pega-experience");
     }
   },{threshold:.50});

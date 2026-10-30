@@ -83,10 +83,10 @@
 .title {
   width: 100%;
   color: var(--primary-color);
-  text-transform: uppercase;
-  font-weight: bold;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
   font-size: 14px;
-  font-family: var(--primary-content-font);
+  /* font-family: var(--primary-content-font); */
   grid-row: 1;
   grid-column: 2/3;
 }
@@ -99,6 +99,7 @@
   font-family: var(--primary-content-font);
   grid-row: 3;
   grid-column: 2/3;
+  font-size: var(--primary-content-font-size) !important;
 }
 
 .issued {
@@ -107,9 +108,10 @@
   text-transform: uppercase;
 
   width: 100%;
-  font-size: 16px;
   grid-row: 2;
   grid-column: 2/3;
+  font-weight: 500;
+  font-size: var(--primary-content-font-size) !important;
 }
 
 .cert-link{
@@ -145,6 +147,7 @@ grid-row: 1;
   color: var(--primary-color);
   font-size: 14px;
   font-family: var(--primary-content-font);
+  font-size: var(--primary-content-font-size) !important;
 }
 
 

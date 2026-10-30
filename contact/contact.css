@@ -1,7 +1,7 @@
 #contact {
   /* background-attachment: fixed; */
   /* background-color: rgb(60, 11, 133); */
-   background-color: rgb(33, 5, 83);
+   /* background-color: rgb(33, 5, 83); */
   /* background-image: url("/images/doodle-bg.avif"); */
   display: flex;
   flex-direction: column;
@@ -22,13 +22,16 @@
   justify-content: center;
   flex-direction: column;
 }
-
+#contact .header{
+  color: black;
+}
 
 i{
-  color:white!important;
+  color:rgb(54, 7, 173)!important;
   font-size: 50px;
   border-radius: 100%;
   margin: 10px!important;
+
 }
 
 i:hover{
