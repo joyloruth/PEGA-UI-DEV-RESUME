@@ -1,36 +1,35 @@
 certifications_list = [
   {
     issuer:"Pegasystems",
-    level:"Advanced",
+    desc:"Demonstrates advanced Pega development skills, including complex application design, integrations, and enterprise-level solutions.",
     date: "2025",
     title: "Certified Pega Senior System Architect (CSSA)",
-    img: "/images/pega-senior-system-arc.png",
-    link:"http://www.google.com"
+    img: "/images/pega-cert.png",
+    link:"https://academy.pega.com/verify-certification?email=joyloruth%40gmail.com"
   },
   {
     issuer:"Pegasystems",
-    level:"Advanced",
+    desc:"Demonstrates foundational skills in building Pega applications, case types, data models, and workflows.",
     date: "2022",
     title: "Certified Pega System Architect (CSA)",
-    // img: "/images/pega-system-arc.png",
-    link:"pega.com" 
-
+    img: "/images/pega-cert.png",
+    link:"https://academy.pega.com/verify-certification?email=joyloruth%40gmail.com" 
   },
   {
     issuer:"Pegasystems",
-    level:"Advanced",
+   desc:"Demonstrates the ability to translate business needs into Pega solutions through process design, requirements gathering, and workflow analysis.",
     date: "2022",
     title: "Certified Pega Business Architect (CBA)",
-    // img: "/images/pega-business-arc.png", 
-    link:"pega.com"
+    img: "/images/pega-cert.png", 
+    link: "https://academy.pega.com/verify-certification?email=joyloruth%40gmail.com"  
   },
   {
     issuer:"Tennessee State University",
-    level:"Advanced",
+    desc:"Advanced",
     date: "Spring 2019",
     title: "Bachelor of Science (B.S)",
-    img: "/images/pega-business-arc.png", 
-    link:"pega.com"
+    img: "/images/tsu.png", 
+    link:"https://www.tnstate.edu/"
   }
 ];
 
@@ -45,6 +44,10 @@ let create_badge = (item, index) => {
   title.className = "title";
   title.innerHTML = item.title
 
+  let desc = document.createElement("p");
+  desc.className = "cert-desc";
+  desc.innerHTML = item.desc
+
   let date = document.createElement("h3");
   date.className = "issued";
   date.innerHTML = item.date;
@@ -53,17 +56,20 @@ let create_badge = (item, index) => {
   issuer.className = "issuer";
   issuer.innerHTML =   item.issuer;
 
-  let cert_link = document.createElement("a");
+  let cert_link = document.createElement("img");
   cert_link.className = "cert-link";
-  // cert_link.innerHTML = "<img src='" + item.img + "'></img>"
-  cert_link.href = item.link
+  cert_link.src = "/images/arrow.png";
   cert_link.target = "_blank"
 
-  // let img = document.createElement("img");
-  // img.className = "img";
-  // img.src = item.img
+  cert_link.addEventListener('click', ()=>{
+    window.open(item.link)
+  })
 
-  badge.append( title, issuer, date, cert_link);
+  let img = document.createElement("img");
+  img.className = "cert-img";
+  img.src = item.img
+
+  badge.append( title, issuer, date, cert_link, img, desc);
 };
 
 certifications_list.forEach((cert) => {
