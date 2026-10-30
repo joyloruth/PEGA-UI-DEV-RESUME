@@ -58,7 +58,7 @@ let create_card = (item) => {
   desc3.className = "desc";
   desc3.innerHTML = "- "+ item.desc3;
  
-  card.append(position, date,company, desc1, desc2,desc3);
+  card.append(position, company,date, desc1, desc2,desc3);
 };
 
 pega_experiences_list.forEach((pega_experiences_list_item) => {

@@ -4,7 +4,7 @@ certifications_list = [
     desc:"Demonstrates advanced Pega development skills, including complex application design, integrations, and enterprise-level solutions.",
     date: "2025",
     title: "Certified Pega Senior System Architect (CSSA)",
-    img: "/images/pega-cert.png",
+    img: "./images/pega-cert.png",
     link:"https://academy.pega.com/verify-certification?email=joyloruth%40gmail.com"
   },
   {
@@ -12,7 +12,7 @@ certifications_list = [
     desc:"Demonstrates foundational skills in building Pega applications, case types, data models, and workflows.",
     date: "2022",
     title: "Certified Pega System Architect (CSA)",
-    img: "/images/pega-cert.png",
+    img: "./images/pega-cert.png",
     link:"https://academy.pega.com/verify-certification?email=joyloruth%40gmail.com" 
   },
   {
@@ -20,7 +20,7 @@ certifications_list = [
    desc:"Demonstrates the ability to translate business needs into Pega solutions through process design, requirements gathering, and workflow analysis.",
     date: "2022",
     title: "Certified Pega Business Architect (CBA)",
-    img: "/images/pega-cert.png", 
+    img: "./images/pega-cert.png", 
     link: "https://academy.pega.com/verify-certification?email=joyloruth%40gmail.com"  
   },
   {
@@ -28,7 +28,7 @@ certifications_list = [
     desc:"",
     date: "Spring 2019",
     title: "Bachelor of Science (B.S)",
-    img: "/images/tsu.png", 
+    img: "./images/tsu.png", 
     link:"https://www.tnstate.edu/"
   }
 ];
