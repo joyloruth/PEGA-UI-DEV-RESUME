@@ -1,8 +1,8 @@
 pega_experiences_list = [
   {
-    company: "Accenture Federal Srvs",
+    company: "Seneca/Accenture Federal Srvs",
     position: "Pega Developer",
-    date: "",
+    date: "02/2025 - 10/2026",
     desc1: "Developed and enhanced Pega PRPC applications (v7.x–8.8), building case types, UI sections, and decision rules to support scalable business workflows",
     desc2: "Utilized Dev Studio, SQL Server, JavaScript, and CSS to debug issues, optimize data handling, and enhance user interface performance and responsiveness",
     desc3: "Troubleshot and resolved complex production defects across UI and backend layers, fixing high-volume UI bugs and improving overall application stability",
@@ -42,21 +42,21 @@ let create_card = (item) => {
 
   let company = document.createElement("h2");
   company.className = "company";
-  company.innerHTML = item.company;
+  company.innerHTML =  item.company;
 
-  let desc1 = document.createElement("li");
+  let desc1 = document.createElement("ol");
   desc1.className = "desc";
-  desc1.innerHTML = item.desc1;
+  desc1.innerHTML = "- "+ item.desc1;
 
 
-  let desc2 = document.createElement("li");
+  let desc2 = document.createElement("ol");
   desc2.className = "desc";
-  desc2.innerHTML = item.desc2;
+  desc2.innerHTML = "- "+ item.desc2;
  
   
-  let desc3 = document.createElement("li");
+  let desc3 = document.createElement("ol");
   desc3.className = "desc";
-  desc3.innerHTML = item.desc3;
+  desc3.innerHTML = "- "+ item.desc3;
  
   card.append(position, date,company, desc1, desc2,desc3);
 };

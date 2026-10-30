@@ -49,6 +49,7 @@
   grid-row: 1fr 1fr 1fr 1fr;
   border: 1px solid #e5e5e5;
   box-shadow: 0px 0px 3px gray;
+  box-shadow: rgba(128, 128, 128, 0.598) 0px 0px 1.5px
 }
 
 .show-badge:last-child {
@@ -76,6 +77,7 @@
   box-shadow: 0px 0px 3px gray;
   margin-top: 2px!important;
   margin-right: 20px!important; 
+  box-shadow: rgba(128, 128, 128, 0.598) 0px 0px 1.5px
 }
 
 .title {
@@ -119,6 +121,12 @@ grid-row: 1;
   box-shadow: 0px 0px 3px gray;
   border-radius: 5px;
   margin-left: 30px!important;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  border: 1px solid #e5e5e5;
+  box-shadow:inset  4px -5px 6px rgba(128, 128, 128, 0.406);
+  border-radius: 50px;
 }
 
 .cert-link:hover{
@@ -137,4 +145,57 @@ grid-row: 1;
   color: var(--primary-color);
   font-size: 14px;
   font-family: var(--primary-content-font);
+}
+
+
+@media screen and (max-width: 375px) {
+  .show-badge {
+    transition: all .25s ease-in-out;
+    opacity: 1!important;
+    width: 75% !important;
+    margin: 1rem !important;
+    text-align: left !important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column!important;
+    color: var(--primary-font-color);
+    border:2px rgba(231, 229, 225, 0.116) solid;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color:  rgb(255, 255, 255);
+    font-size: var(--primary-font-size);
+    color: black;
+    grid-template-columns: .5fr 2.5fr .5fr;
+    grid-row: 1fr 1fr 1fr 1fr;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 0px 3px gray;
+    /* background-color: blueviolet!important; */
+  }
+.cert-img {
+  width: 90px;
+ height: 90px;
+  padding: 5px 5px;
+  grid-row: 1/4;
+  grid-column: 1;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 0px 3px gray;
+  margin-top: 2px!important;
+  margin-bottom: 5px!important;
+  margin-right: 0px!important; 
+}
+
+.cert-link{
+  grid-row: 1;
+    grid-column: 3;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 5px;
+    margin-left: 150px!important;
+    margin-top: 15px!important;
+    
+  }
 }

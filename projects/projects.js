@@ -23,7 +23,7 @@ let projectsList = [
 
   {
     title: "Burger Bistro",
-    img: "/images/burger.png",
+    img: "./images/burger.png",
     description:
       "A full stack restaurant website demo. Includes login, sessions, APIs.",
     tag: ["PHP", "CSS", "SQL", "API"],
@@ -72,7 +72,8 @@ projectsList.forEach((element) => {
   projectCard.append(projectLogo);
   projectCard.append(projectTitle);
   projectCard.append(projectDesc);
-  projectCard.append(projectLink);
+ 
 
   projectCard.append(projectTag);
+  projectCard.append(projectLink);
 });

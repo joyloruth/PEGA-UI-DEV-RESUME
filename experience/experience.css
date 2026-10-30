@@ -10,13 +10,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-image: url(/images/swe-doodle-bg.png); */
-  /* background-color: var(--primary-bg-color) !important; */
   background-repeat: no-repeat;
   padding-bottom: 50px;
   padding-top:50px ;
- background-color: rgb(33, 5, 83);
-
 }
 
 .container {
@@ -32,7 +28,7 @@
   align-items: center;
 }
 #pega-experience .header{
-  color:rgb(196, 185, 223);
+  color:black;
 }
 .show-pega-experience {
   transition: linear 1s all;
@@ -44,7 +40,7 @@
   transform: translate(-200%);
   font-size: 16px;
   font-weight: bold;
-  text-transform: uppercase;
+
 }
 
 .date {
@@ -55,20 +51,23 @@
   text-transform: uppercase;
   color: var(--primary-content-font);
   font-family: var(--primary-content-font);
-  font-weight: normal;
-  font-style: italic;
+  font-weight: 500;
+  
+  text-align: right;
+  
 }
 
 .desc {
   color: var(--primary-content-font);
   font-family: var(--primary-content-font);
   margin-top: 10px !important;
+  font-size: 14px;
+ 
 }
 
 .company {
   color: var(--primary-content-font);
   font-family: var(--primary-content-font);
-  text-transform: uppercase;
   font-size: 14px!important;
   font-weight: normal;
 }
@@ -85,7 +84,7 @@ p {
 .card {
   margin: 10px;
   width: 80%;
-color:white;
+color:rgb(7, 7, 7);
 transition: linear 1s all;
   padding: 10px 15px;
   transform: scale(1);
@@ -101,7 +100,7 @@ transition: linear 1s all;
   font-family: var(--primary-content-font);
   border: 1px solid rgb(12, 12, 12);
  
-  background-color: rgba(0, 0, 0, 0.171);
+  background-color: rgba(255, 255, 255, 0.171);
   
   /* transform: translateX(50%); */
 }

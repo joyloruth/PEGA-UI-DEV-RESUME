@@ -113,7 +113,7 @@ section {
     overflow: hidden;
     padding: 10px !important;
     box-sizing: border-box;
-     background-color: rgb(33, 5, 83);
+     /* background-color: rgb(33, 5, 83); */
     /* background-color: var(--primary-bg-color); */
     font-family: var(--primary-content-font) !important;
   }

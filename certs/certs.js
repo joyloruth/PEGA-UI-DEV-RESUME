@@ -25,7 +25,7 @@ certifications_list = [
   },
   {
     issuer:"Tennessee State University",
-    desc:"Advanced",
+    desc:"",
     date: "Spring 2019",
     title: "Bachelor of Science (B.S)",
     img: "/images/tsu.png", 
@@ -69,7 +69,7 @@ let create_badge = (item, index) => {
   img.className = "cert-img";
   img.src = item.img
 
-  badge.append( title, issuer, date, cert_link, img, desc);
+  badge.append( img,title, issuer, date, desc, cert_link);
 };
 
 certifications_list.forEach((cert) => {
