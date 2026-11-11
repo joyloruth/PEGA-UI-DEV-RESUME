@@ -79,21 +79,6 @@
 p {
   font-family: monospace;
 }
-/* .card {
-  margin: 10px;
-  width: 80%;
-  color: rgb(7, 7, 7);
-  transition: linear 1s all;
-  /* padding: 10px 15px; */
-/* transform: scale(.5); */
-/* opacity: 1;
-  padding: 5px 10px;
-  border-radius: 5px;
-  margin-top: 30px !important;
-  padding: 20px 15px;
-  width: 85%;
-  font-family: var(--primary-content-font);
-  border: 1px solid rgb(12, 12, 12); */
 
 .show-pega-experience {
   /* transition: linear 2s all; */
@@ -107,6 +92,7 @@ p {
   background-color: rgba(255, 255, 255, 0.928);
   font-family: var(--primary-content-font);
   border: 1px solid rgb(207, 198, 241);
+  background-color: #fff3e6;
   box-shadow: inset rgb(181, 178, 211) 0px -10px 1.5px;
 }
 

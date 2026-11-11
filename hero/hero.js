@@ -57,9 +57,9 @@ let moveName = () => {
     let scrollValue = window.scrollY * 1;
     dev.style.top = scrollValue * 0.5 + "px";
     desk.style.top = scrollValue * 0.3 + "px";
-    screens.style.top = scrollValue * -0.9 + "px";
+    // screen1.style.top = scrollValue * .12 + "px";
     windowPane.style.top = scrollValue * -.15 + "px";
-    moon.style.top = scrollValue * 0.8 + "px";
+    moon.style.top = scrollValue * .8 + "px";
     // skyline.style.left = scrollValue * .5 + "px";
     //  buildings.style.bottom = scrollValue * .3 + "px";
     //  shadow.style.bottom = scrollValue * .9 + "px";

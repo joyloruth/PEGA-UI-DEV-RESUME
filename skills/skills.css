@@ -44,8 +44,8 @@
   height: 85px;
   /* border: 1px solid #e5e5e5; */
   box-shadow: 0px 0px 3px gray;
-  border-radius: 5px;
-  background-color: aliceblue;
+  border-radius: 15px;
+  background-color: #fff3e6;
   box-shadow: inset rgb(181, 178, 211) 0px -10px 1.5px;
 }
  .pill:hover{
