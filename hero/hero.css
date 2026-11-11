@@ -1,11 +1,11 @@
 #hero-section {
   position: relative;
-  /* background-image: url(../images/hero/buildings.png); */
+  
   background-position: center;
-  background-size: cover;
   margin: 0px !important;
   padding: 100px !important;
   background-color: rgb(92, 92, 92);
+
 }
 
 
@@ -18,6 +18,9 @@
   overflow: hidden;
   width: 100%;
   height: 100%;
+  background-image: url(../images/hero/stars.svg);
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 
 #desk {
@@ -27,7 +30,7 @@
   filter: grayscale(100%);
 }
 
-#window {
+#windowPane {
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -53,7 +56,6 @@
   height: 100%;
   position: absolute;
   bottom: -10px!important;
-  /* filter: grayscale(80%); */
 }
 
 #moon {
@@ -61,29 +63,29 @@
   height: 5em;
   filter: hue-rotate(223deg);
   position: absolute;
-  top: 0px;
+  top: -100px;
   border-radius: 100%;
   background-image: url(../images/hero/moon.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 126%;
   border: 3px white solid;
-  /* filter: grayscale(80%); */
   animation: shine 2s ease-in-out infinite alternate;
 }
 
 #screen1 {
-  width: 300px;
-  height: 200px;
+  width: 80%;
+  height: 30%;
   position: absolute;
   font-size: 16px;
   background-color: rgb(0, 0, 0);
   border: 15px solid rgb(55, 10, 139);
+  border-radius: 25px;
   color: rgb(165, 209, 8);
   font-size: 16px;
   padding: 20px;
   transition: all 1s ease-in-out; 
-  bottom: 50%; 
+  font-family: m;
   filter: grayscale(100%);
 }
 
@@ -95,7 +97,6 @@
 #screen1 span {
   font-size: 10px;
   display: flex;
-  font-family: monospace;
 
 }
 
@@ -103,18 +104,11 @@
   color: white !important;
 }
 
-#stars {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  animation: shine 2s ease-in-out infinite alternate;
-}
-
 #overlay {
   width: 100%;
   height: 100%;
   position: absolute;
-  opacity: 0;
+  opacity: .10;
   top: -5px !important;
 }
 

@@ -1,11 +1,11 @@
 let hero_bg = document.querySelector(".hero-bg");
 
-let message = "Username: Pega Developer";
+let message = "Creating UI that sparks joy!";
 let hiddenMessage = document.createElement("div");
 hiddenMessage.innerHTML = message;
 hiddenMessage.className = "hidden-message";
 
-let testMessage = "Creating UI that sparks joy!";
+let testMessage = "Creating UI that sparks joy! Creating UI that sparks joy! Creating UI that sparks joy!";
 testMessage.className = "test-message";
 
 function powerOn() {
@@ -48,7 +48,7 @@ let moon = document.getElementById("moon");
 let screen1 = document.getElementById("screen1")
 let shadow = document.getElementById("shadow");
 
-let windowPane = document.getElementById("window");
+let windowPane = document.getElementById("windowPane");
 
 // hero_bg.append(desk);
 
@@ -56,13 +56,12 @@ let moveName = () => {
   window.addEventListener("scroll", () => {
     let scrollValue = window.scrollY * 1;
     dev.style.top = scrollValue * 0.5 + "px";
-    desk.style.top = scrollValue * 0.3 + "px";
-    // screen1.style.top = scrollValue * .12 + "px";
-    windowPane.style.top = scrollValue * -.15 + "px";
+    desk.style.left = scrollValue * 0.3 + "px";
+    // screen1.style.right = scrollValue * .12 + "px";
+    windowPane.style.right = scrollValue * .15 + "px";
     moon.style.top = scrollValue * .8 + "px";
-    // skyline.style.left = scrollValue * .5 + "px";
-    //  buildings.style.bottom = scrollValue * .3 + "px";
-    //  shadow.style.bottom = scrollValue * .9 + "px";
+    // wall.style.right = scrollValue * .8 + "px";
+    
   });
 };
 
