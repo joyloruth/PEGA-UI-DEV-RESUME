@@ -13,6 +13,8 @@
   background-repeat: no-repeat;
   padding-bottom: 50px;
   padding-top: 50px;
+  position: relative;
+  background-color: rgb(33, 5, 83);
 }
 
 .container {
@@ -23,15 +25,17 @@
 }
 
 .pega-experience-item {
-  height: 100px;
-  width: 100px;
+  /* height: 100px;
+  width: 100px; */
   align-items: center;
 }
+
 #pega-experience .header {
-  color: black;
+  /* color: black; */
 }
+
 .show-pega-experience {
-  transition: linear 1s all;
+  transition: linear .5s all;
 }
 
 .position {
@@ -48,8 +52,9 @@
   text-transform: uppercase;
   color: var(--primary-content-font);
   font-family: var(--primary-content-font);
-  font-weight: 500;
+  font-weight: 700;
   text-align: right;
+  color: rgba(0, 0, 0, 0.605);
   font-size: var(--primary-content-font-size) !important;
 }
 
@@ -57,6 +62,8 @@
   color: var(--primary-content-font);
   font-family: var(--primary-content-font);
   margin-top: 10px !important;
+  opacity: 75%;
+  font-weight: 500;
   font-size: var(--primary-content-font-size) !important;
 }
 
@@ -64,44 +71,43 @@
   color: var(--primary-content-font);
   font-family: var(--primary-content-font);
   font-size: 14px !important;
-  font-weight: normal;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.741);
   font-size: var(--primary-content-font-size) !important;
 }
-
 
 p {
   font-family: monospace;
 }
-.card {
+/* .card {
   margin: 10px;
   width: 80%;
   color: rgb(7, 7, 7);
   transition: linear 1s all;
-  padding: 10px 15px;
-  transform: scale(.5);
-  opacity: 0;
+  /* padding: 10px 15px; */
+/* transform: scale(.5); */
+/* opacity: 1;
   padding: 5px 10px;
   border-radius: 5px;
   margin-top: 30px !important;
   padding: 20px 15px;
   width: 85%;
   font-family: var(--primary-content-font);
-  border: 1px solid rgb(12, 12, 12);
-  background-color: rgba(255, 255, 255, 0.171);
-}
+  border: 1px solid rgb(12, 12, 12); */
 
 .show-pega-experience {
-  transition: linear 1s all;
+  /* transition: linear 2s all; */
   padding: 10px 15px;
-  transform: scale(1);
-  opacity: 1;
-  border-radius: 15px;
+  /* transform: scale(1); */
+  /* opacity: 1; */
+  /* border-radius: 15px; */
   margin-top: 30px !important;
   padding: 20px 25px;
-  width: 80%;
+  width: 75%;
+  background-color: rgba(255, 255, 255, 0.928);
   font-family: var(--primary-content-font);
-  border: 1px solid #e5e5e5;
-  box-shadow: rgba(128, 128, 128, 0.598) 0px 0px 1.5px;
+  border: 1px solid rgb(207, 198, 241);
+  box-shadow: inset rgb(181, 178, 211) 0px -10px 1.5px;
 }
 
 .show-position {

@@ -8,10 +8,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-color: rgb(33, 5, 83);
+  /* background-color: rgb(33, 5, 83); */
 }
 
 #certifications .header{
-  color:black;
+  /* color:black; */
 }
 
 .cert-badge {
@@ -49,7 +51,8 @@
   grid-row: 1fr 1fr 1fr 1fr;
   border: 1px solid #e5e5e5;
   box-shadow: 0px 0px 3px gray;
-  box-shadow: rgba(128, 128, 128, 0.598) 0px 0px 1.5px
+  box-shadow: rgba(128, 128, 128, 0.598) 0px 0px 1.5px;
+  box-shadow: inset rgb(181, 178, 211) 0px -10px 1.5px;
 }
 
 .show-badge:last-child {
@@ -85,7 +88,7 @@
   color: var(--primary-color);
   /* text-transform: uppercase; */
   /* font-weight: bold; */
-  font-size: 14px;
+  font-size:20px;
   /* font-family: var(--primary-content-font); */
   grid-row: 1;
   grid-column: 2/3;
@@ -145,7 +148,7 @@ grid-row: 1;
   width: 100%;
   font-size: medium;
   color: var(--primary-color);
-  font-size: 14px;
+  font-size:medium;
   font-family: var(--primary-content-font);
   font-size: var(--primary-content-font-size) !important;
 }

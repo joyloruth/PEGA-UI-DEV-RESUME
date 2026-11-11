@@ -11,21 +11,19 @@
   margin: 0px !important;
 }
 
-section {
-  margin: 0px !important;
-}
-
 :root {
   --primary-bg-color: black;
   --primary-font-color: white;
   --secondary-color: #fbf8f0;
   --third-color: #f1ebc7;
   --img-bg-color: #f1ede7;
+  --pega-eggplant:rgb(25, 9, 63);
+  --pega-lime:rgb(216, 241, 166);
 
   /* Text style */
   --primary-content-font: Montserrat;
   --primary-header-font: luckiest guy;
-  --primary-content-font-size: .75em;
+  --primary-content-font-size: 16px;
   box-sizing: border-box !important;
 }
 
@@ -51,7 +49,8 @@ section {
   text-transform: uppercase;
   color: var(--primary-font-color);
   opacity: 0.75 !important;
-  font-size: 32px;
+  font-size: 24px;
+  /* text-decoration: underline wavy 3px var(--pega-lime); */
 }
 
 @media screen and (max-width: 600px) {
@@ -163,3 +162,19 @@ section {
     width: 100%!important;
   }
 }
+
+.scallop{
+  background-color: rgb(33, 5, 83);
+  border: none!important;
+  width: 100%;
+}
+
+.scallop.bottom{
+  transform: rotate(180deg);
+  margin-bottom: -5px!important;
+  /* background-color: aliceblue; */
+}
+
+.scallop.lime{
+  /* transform: rotate(0deg); */
+  margin-bottom: -5px!important;}

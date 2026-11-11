@@ -1,11 +1,8 @@
 #contact {
-  /* background-attachment: fixed; */
-  /* background-color: rgb(60, 11, 133); */
-   /* background-color: rgb(33, 5, 83); */
-  /* background-image: url("/images/doodle-bg.avif"); */
   display: flex;
   flex-direction: column;
-  height: 300px!important;
+  background-color: #fff3e6;
+  height: fit-content;
 }
 
 .contact_container{
@@ -27,15 +24,19 @@
 }
 
 i{
-  color:rgb(54, 7, 173)!important;
-  font-size: 50px;
-  border-radius: 100%;
-  margin: 10px!important;
+  /* color: rgb(152, 112, 182); */
+  color: #ab9a85;
+  font-size: 30px;
+  margin: 5px!important;
+  border: 3px solid #ab9a85;
+  padding: 10px 12px;
+  border-radius: 10%;
+  background-color: white;
+  box-shadow: inset #ab9a85 0px -10px 1.5px;
 
 }
 
 i:hover{
-  color:rgb(206, 244, 118)!important;
 transform: scale(1.4)!important;
 transition: all .25s ease-in-out;
 font-size: 55px;
@@ -46,18 +47,14 @@ font-size: 55px;
 .contact_socials{
   height: 100px;
   padding:10px;
-  /* height: 300px; */
   display: flex;
   align-items: center;
   justify-content: center;
   transform: scale(0);
-  
-
-
 }
 
 p{
-  color: white;
+  color: black;
 }
  
 .show_social{
