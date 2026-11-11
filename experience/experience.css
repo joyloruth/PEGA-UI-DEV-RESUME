@@ -15,6 +15,7 @@
   padding-top: 50px;
   position: relative;
   background-color: rgb(33, 5, 83);
+  color: #ab9a85!important;
 }
 
 .container {
@@ -40,21 +41,24 @@
 
 .position {
   transform: translate(-200%);
-  font-size: 16px;
-  /* font-weight: bold; */
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .date {
   font-size: 14px;
   width: 100%;
+  color: #ab9a85;
   border-radius: 5px;
   height: 20px;
+
   text-transform: uppercase;
   color: var(--primary-content-font);
   font-family: var(--primary-content-font);
   font-weight: 700;
   text-align: right;
   color: rgba(0, 0, 0, 0.605);
+  color: #392809;;
   font-size: var(--primary-content-font-size) !important;
 }
 
@@ -73,6 +77,7 @@
   font-size: 14px !important;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.741);
+  color: #392809;
   font-size: var(--primary-content-font-size) !important;
 }
 
@@ -89,6 +94,7 @@ p {
   margin-top: 30px !important;
   padding: 20px 25px;
   width: 75%;
+ color: #392809;;
   background-color: rgba(255, 255, 255, 0.928);
   font-family: var(--primary-content-font);
   border: 1px solid rgb(207, 198, 241);

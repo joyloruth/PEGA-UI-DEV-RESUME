@@ -20,19 +20,11 @@
   height: 100%;
 }
 
-/* #monitor {
-  width: 500px;
-  height: 500px;
-  position: absolute;
-  transform: rotate(90deg);
-
-} */
-
 #desk {
   width: 100%;
   height: 100%;
   position: absolute;
-  filter: grayscale(80%);
+  filter: grayscale(100%);
 }
 
 #window {
@@ -53,7 +45,7 @@
   width: auto;
   height: 90%;
   position: absolute;
-  filter: grayscale(80%);
+  filter: grayscale(100%);
 }
 
 #shadow {
@@ -61,12 +53,13 @@
   height: 100%;
   position: absolute;
   bottom: -10px!important;
-  filter: grayscale(80%);
+  /* filter: grayscale(80%); */
 }
 
 #moon {
   width: 5em;
   height: 5em;
+  filter: hue-rotate(223deg);
   position: absolute;
   top: 0px;
   border-radius: 100%;
@@ -92,9 +85,6 @@
   transition: all 1s ease-in-out; 
   bottom: 50%; 
   filter: grayscale(100%);
-
-  /* top:-50%; */
-  /* border-radius: 5px; */
 }
 
 #screen1 p {
@@ -147,7 +137,7 @@
   height: fit-content;
   /* top: 10%!important; */
   position: absolute;
-  filter: grayscale(80%);
+  filter: grayscale(100%);
 }
 
 

@@ -170,15 +170,19 @@ section {
   background-color: rgb(33, 5, 83);
   border: none!important;
   width: 100%;
-  filter: grayscale(80%);
+  
 }
 
 .scallop.bottom{
   transform: rotate(180deg);
   margin-bottom: -5px!important;
   /* background-color: aliceblue; */
+  /* filter: grayscale(80%); */
 }
 
 .scallop.lime{
   /* transform: rotate(0deg); */
-  margin-bottom: -5px!important;}
+  margin-bottom: -5px!important;
+  filter: grayscale(100%)!important;
+}
+

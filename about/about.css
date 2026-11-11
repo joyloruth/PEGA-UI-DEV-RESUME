@@ -5,6 +5,7 @@
   box-sizing: border-box !important;
   overflow: hidden;
   background-color: #cdc6be76;
+  background-color: #fff3e6;
   background-attachment: fixed;
   padding-bottom: 20px;
   display: flex;
@@ -70,8 +71,8 @@ width: 60%;
 
 #about .header {
   text-align: justify !important;
-  color:blueviolet;
-  filter: grayscale(80%);
+  color:rgb(35, 29, 144);
+  /* filter: grayscale(80%); */
 }
 
 .about_button {
