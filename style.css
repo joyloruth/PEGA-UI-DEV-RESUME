@@ -9,6 +9,7 @@
 
 * {
   margin: 0px !important;
+
 }
 
 :root {
@@ -39,6 +40,8 @@ section {
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  /* filter: grayscale(8); */
+  
   /* padding: 30px; */
   /* box-sizing: border-box; */
   font-family: var(--primary-content-font) !important;
@@ -167,6 +170,7 @@ section {
   background-color: rgb(33, 5, 83);
   border: none!important;
   width: 100%;
+  filter: grayscale(80%);
 }
 
 .scallop.bottom{

@@ -1,4 +1,5 @@
 .navbar {
+  filter: grayscale(100%);
   position: sticky !important;
   z-index: 99;
   /* background-color: var(--primary-bg-color) !important; */
